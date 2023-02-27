@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+       <h1>Formularios em HTML</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="pnome">Nome</label>
+            <input type="text" name="pnome" id="pnome">
+            <br>
+
+            <label for="snome">Sobrenome</label>
+            <input type="text" name="snome" id="snome"> - <label for="psw">Senha</label>
+            <input type="password" name="psw" id="psw">
+            
+            <p>
+                <label for="birthday">Qual sua data de nascimento?</label>
+                <input type="date" name="birthday" id="birthday"> - <label for="fPerfil">Foto de Perfil</label>
+                <input type="file" name="fPerfil" id="fPerfil">
+            </p>
+
+
+            <p>
+                <label for="nacionalidade">Nacionalidade</label>
+                <select name="nacionalidade" id="nacionalidade">
+                    <option value="Russa">Russa</option>
+                    <option value="Americano">Americano</option>
+                    <option value="Brasileiro">Brasileiro</option>
+                </select> - 
+                <label for="sexo">Genero:</label>
+                <input type="radio" name="sexo" id="masculino" value="Masculino">
+                <label for="masculino">M</label>
+                <input type="radio" name="sexo" id="feminino" value="Feminino">
+                <label for="feminino">F</label>
+            </p>
+
+            <p>
+                <label for="def">Possui alguma deficiencia?</label>
+
+                <br>
+
+                <label for="visao">Inteligencia</label> 
+  
+                <input type="checkbox" name="inteligencia" id="inteligencia" value="Inteligencia"> | 
+
+                <label for="aud">Resiliencia</label> 
+
+                <input type="checkbox" name="res" id="res" value="Resiliencia"> | 
+
+                <label for="visao">Preparo Fisico</label>
+
+                <input type="checkbox" name="preparo" id="preparo" value="Preparo Fisico"> |  
+
+                <label for="visao">Educaçao</label>
+
+                <input type="checkbox" name="educaçao" id="educaçao" value="Educação">
+            </p>
+
+            <p>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10">Porque você gostaria de ser Astronauta?</textarea>
+            </p>
+
+            <br>
+
+
+            <input type="submit" value="Criar">
+        </fieldset>
+    </form>
+
+</body>
+</html>

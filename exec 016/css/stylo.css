@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+#static{
+    border: 1px solid blueviolet;
+    height: 20px;
+}
+
+#relative{
+    border: 1px solid blueviolet;
+    height: 20px;
+    position: relative;
+    left: 50px;
+}
+
+#fixed{
+    border: 1px solid blueviolet;
+    background-color: aquamarine;
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#pai{
+    border: 1px solid blueviolet;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-size: cover;
+}
+
+#filho > span{
+    display: none;
+}
+
+#filho:hover > span{
+    display: block;
+}
+
+#filho{
+    border: 1px solid blueviolet;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0.493);
+    font-size: 100px;
+}

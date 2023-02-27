@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+
+@font-face {
+    font-family: pamonha;
+    src: url(../fonts/Stay\ In\ Villa.ttf); /* ../ para buscar arquivos em outras pastas */
+}
+:root{
+    --cor1: #F2B872;
+    --cor2: #2e1b85;
+    --cor3: #6ddb5f;
+}
+
+h1{
+    color: var(--cor1);
+    font-family: pamonha;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#TituloDois{
+    color: red;
+}
+
+#TituloUm{
+    color: green;
+}
+
+.s01{
+    color: blue;
+}
+
+.s02{
+    color: orange;
+}
+
+.p01{
+    color: yellow;
+}
+
+.p02{
+    color: purple;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#flex-conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: burlywood;
+    height: 300px;
+}
+
+#flex-conteiner > div{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
